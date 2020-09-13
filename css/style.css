@@ -1,0 +1,279 @@
+* { 
+    margin: 0px;
+    padding: 0px ;
+    
+}
+
+
+.logo {
+    color:white;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive; 
+    margin-left: 10px;
+    }
+
+
+header {     
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url(../images/food1.jpg);
+        background-size: cover;
+        height: 800px;
+        text-align: center; }
+        
+ 
+ 
+ nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.nav-menu {
+    list-style: none;
+    color: white;
+    
+    
+}
+.nav-menu li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left:15px ;
+    margin-top: 20px;
+    text-decoration-color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    
+    
+}
+.nav-menu li a {
+
+    text-decoration:none ;
+    color: white;
+    
+}
+
+.wel {
+    color: orange;
+    font-size: 50px;
+    padding-top: 100px;
+    font-family: 'Rochester', cursive;
+
+}
+
+.five { 
+    font-size: 70px;
+    color: white;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 20px;
+}
+/*
+.book {
+    font-size: 40px;
+    color: white;
+    padding-top: 5px;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom:  10px;
+    
+} */
+
+.book-now-btn {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 20px;
+    background-color: #f2ac32;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+.book-now-btn:hover{
+    background-color: #cf6d02;
+
+
+}
+
+/**********************************************discover section****************************************/
+.discover-section {
+    background-color: #F2f2f2;
+    display: flex;
+    justify-content: center;
+    padding:60px;
+    
+
+
+
+}
+
+.food-item {
+    height: 400px;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 80px;
+
+    
+}
+
+.food-item a {
+    font-size: 20px;
+    color: #f2ac32;
+    text-decoration: none;
+    
+    
+}
+.food-border {
+    border: 2px solid #f2ac32;
+    position: relative;
+}
+.food1 {
+    background-image: url(../images/food2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: -30px;
+    -webkit-box-shadow: 8px 7px 38px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 7px 38px 5px rgba(0,0,0,0.75);
+box-shadow: 8px 7px 38px 5px rgba(0,0,0,0.75);
+}
+.food2{
+    background-image: url(../images/food6.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 8px 7px 38px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 7px 38px 5px rgba(0,0,0,0.75);
+box-shadow: 8px 7px 38px 5px rgba(0,0,0,0.75);
+}
+ .discover-h1 {
+     font-family: 'Rochester', cursive; 
+     color: #f2ac32;
+     
+}
+
+.discover-h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.food-item p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+
+}
+
+.food-overlay {
+    background-color: #fff;
+    padding-top: 100px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+
+
+/**************************** Specialities***********************************/
+
+.special-section {
+
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(../images/food9.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top:250px;
+    padding-bottom: 300px;
+}
+
+.special-mid {
+
+    text-align: center;
+
+}
+
+.specialh1 {
+    color: #f2ac32;
+    font-family: 'Rochester', cursive;
+    font-size: 40px;
+}
+.services2{
+    font-family:'Oswald', sans-serif ;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+.specialities-row {
+    justify-content: center;
+    display: flex;
+    
+    
+    
+
+
+}
+
+.specialities-col {
+
+    width: 350px;
+    margin-right: 10px;
+    margin-left:10px;
+
+    
+}
+.sp-image1,
+.sp-image2,
+.sp-image3 {
+    width:100%;
+    height: 350px;
+    
+
+
+
+}
+
+.sp-image1 {
+
+    background-image: url(../images/food11.jpg);
+    background-position: bottom;
+    background-size: cover;
+    
+}
+.specialities-image-border {
+    border: 8px #f2ac32 solid;
+    position: relative;
+}
+
+.sp-image2 {
+
+    background-image: url(../images/food8.jpg);
+    background-position: bottom;
+    background-size: cover;
+    
+}
+.sp-image3 {
+
+    background-image: url(../images/food1p.jpg);
+    background-position: bottom;
+    background-size: cover;
+    
+}
+ .classh3 {
+
+    font-family: 'PT Serif', serif;
+    font-size:25px;
+    color:white;
+    padding-top:30px;
+ }
+
